@@ -46,7 +46,7 @@ def main():
 
     SITE.mkdir(exist_ok=True)
     (SITE / "index.html").write_text(page, encoding="utf-8")
-    for name in ("style.css", "robots.txt", "sitemap.xml", image):
+    for name in ("style.css", "robots.txt", "sitemap.xml", "google9f9f34b405a49230.html", image):
         shutil.copy2(ROOT / name, SITE / name)
     print(f"Built {SITE / 'index.html'}")
 
