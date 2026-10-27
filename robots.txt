@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vancem.github.io/VancePMorrison/sitemap.xml

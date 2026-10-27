@@ -1,0 +1,95 @@
+:root {
+  color-scheme: light dark;
+  --text: #1c1c1c;
+  --muted: #4a4a4a;
+  --link: #1a3a8a;
+  --bg: #fafafa;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #f3f3f3;
+    --muted: #c6c6c6;
+    --link: #9db4ff;
+    --bg: #161616;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: var(--text);
+  background: var(--bg);
+}
+
+main {
+  max-width: 36rem;
+  margin: 0 auto;
+  padding: 3.5rem 1.25rem 4rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.25rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.portrait {
+  float: right;
+  margin: 0 0 1rem 1.25rem;
+}
+
+.portrait img {
+  display: block;
+  width: auto;
+  height: 1.5in;
+}
+
+@media (max-width: 32rem) {
+  .portrait {
+    float: none;
+    margin: 0 0 1rem;
+  }
+}
+
+.aka {
+  margin: 0.2rem 0 1.25rem;
+  color: var(--muted);
+}
+
+h2 {
+  clear: both;
+  margin: 2rem 0 0.25rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 1rem 0;
+}
+
+li p {
+  margin: 0.1rem 0 0;
+}
+
+li p + p {
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+a {
+  color: var(--link);
+}
+
+ul:last-of-type li {
+  margin: 0.35rem 0;
+}
