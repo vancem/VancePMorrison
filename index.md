@@ -13,7 +13,7 @@ My name is Vance Morrison.   I was born in 1964 and have lived in Kirkland, Wash
 since 1996 with my wife Sharon.  
 
 ## Career
-I am a software Engineer and worked for over two decades at Microsoft before retiring in 2019.
+I am a software engineer and worked for over two decades at Microsoft before retiring in 2019.
 While at Microsoft  I worked in the Developer Division on the .NET Runtime, mostly on 
 the Just in Time compiler for the .NET Runtime.   Frequently I worked closely with the C# 
 language team.   Later in my career I became a Performance Architects and wrote the 
